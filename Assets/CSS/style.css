@@ -1,0 +1,159 @@
+/* color palette
+#2B2042 - dark blue
+#8099AE - light blue
+#EDF2F4 - blue/white
+#EF233C - red
+ */
+
+ body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 34px;
+    color: #777777;
+    background: url("../images/concrete_seamless.png");
+  }
+  
+
+ .container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+
+  h1 {
+      color: #2B2042
+    
+  }
+
+.header-container {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #ffffff;
+    background: #ffffff;
+    border-bottom: 2px solid #dbbfbf;
+  }
+  
+  #logo {
+    float: left;
+    width: 250px;
+    height: 90px;
+    font-family: Georgia, Times, "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 90px;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background: #2B2042;
+  }
+  
+  ul {
+    /* float: right; */
+    margin-top: 25px;
+  }
+  
+  ul a {
+    display: inline-block;
+    padding-left: 15px;
+    margin-left: 15px;
+    line-height: 18px;
+    color: #999;
+    text-decoration: none;
+    border-left: 1px solid #efefef;
+  }
+  
+  ul a:first-child {
+    border-left: 0 none;
+  }
+  
+  .body {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+  }
+
+  .img1 {
+      float: left;
+  }
+
+  .main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #ebd9d9;
+  }
+  
+
+
+  .footer {
+    padding: 30px 0;
+    clear: both;
+    font-size: 12px;
+    color: #ffffff;
+    color: #cccccc;
+    text-align: center;
+    background: #666666;
+    border-top: 8px solid #2B2042;
+    height: 50px;
+  }
+
+
+  #contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #b19d9d;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #2B2042;
+    border: 0 none;
+  }
+  
+
+  .name h3 {
+    position: absolute;
+    bottom: 10px;
+    width: 50%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 200;
+    line-height: 5px;
+    color: #ffffff;
+    text-align: center;
+    background: #2B2042;
+    border-bottom: 0;
+  }
+  
